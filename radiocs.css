@@ -1,0 +1,15 @@
+#cl{
+	color:white;
+}
+
+.navbar-toggler-icon{
+	border-color: white; 
+	outline: white;
+	border-radius: 5px;
+}
+
+.navbar{
+	background-color: #5f5f5f; 
+}
+
+
