@@ -14,6 +14,7 @@ function revealAboutUs()
 	document.getElementById("home").style.borderRadius = '0px';
 	document.getElementById("fm").style.backgroundColor = 'transparent';
 	document.getElementById("fm").style.borderRadius = '0px';
+	limit=100;
 }
 function revealContactUs()
 {
@@ -49,6 +50,7 @@ function revealHome()
 	document.getElementById("contact1").style.borderRadius = '0px';
 	document.getElementById("fm").style.backgroundColor = 'transparent';
 	document.getElementById("fm").style.borderRadius = '0px';
+	limit=500;
 }
 
 function revealRadio() 
