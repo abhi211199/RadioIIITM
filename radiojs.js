@@ -70,3 +70,26 @@ function revealRadio()
 	document.getElementById("home").style.backgroundColor = 'transparent';
 	document.getElementById("home").style.borderRadius = '0px';
 }
+
+$(function() {
+	$('#cl').on('click', function() {
+		$('#AboutUs').addClass('animated fadeInUp fast');
+		$('#kli').addClass('animated fadeInUp fast');
+		$('#newsfeed').addClass('animated fadeInUp fast');
+	});
+	$('#cli').on('click', function() {
+		$('#AboutUs').addClass('animated fadeInUp fast');
+		$('#kli').addClass('animated fadeInUp fast');
+		$('#newsfeed').addClass('animated fadeInUp fast');
+	});
+	$('#clj').on('click', function() {
+		$('#AboutUs').addClass('animated fadeInUp fast');
+		$('#kli').addClass('animated fadeInUp fast');
+		$('#newsfeed').addClass('animated fadeInUp fast');
+	});
+	$('#clk').on('click', function() {
+		$('#AboutUs').addClass('animated fadeInUp fast');
+		$('#kli').addClass('animated fadeInUp fast');
+		$('#newsfeed').addClass('animated fadeInUp fast');
+	});
+});
